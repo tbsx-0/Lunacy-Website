@@ -9,7 +9,8 @@ body {
     color: #FFFFFF;
 }
 
-/*Header Style*/
+/* ---START--- 
+Header Style*/
 .header {
     font-family: "Glacial Indifference", Arial, sans-serif;
     font-size: 18px;
@@ -54,3 +55,5 @@ a:hover {
 a:visited {
     color: #FFFFFF;
 }
+/*Header Style
+---END---*/
