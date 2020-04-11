@@ -1,7 +1,7 @@
 @font-face{
     font-family: "Glacial Indifference";
-    src: url("../fonts/glacialindifference-bold-webfont.woff");
-    src: url("../fonts/glacialindifference-regular-webfont.woff")
+    src: url("../fonts/glacialindifference-bold-webfont.woff") format("woff");
+    src: url("../fonts/glacialindifference-regular-webfont.woff") format("woff");
 }
 
 body {
@@ -9,3 +9,48 @@ body {
     color: #FFFFFF;
 }
 
+/*Header Style*/
+.header {
+    font-family: "Glacial Indifference", Arial, sans-serif;
+    font-size: 18px;
+    margin:70px 70px ;
+    
+}
+
+.header div{
+    display: inline;
+}
+
+.header .navbar-right{
+    float:right;
+}
+
+.header .navbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar-right li{
+    float: left;
+    margin-top: 28px;
+    
+}
+
+.header .navbar-right li a{
+    display: inline;
+    padding: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
