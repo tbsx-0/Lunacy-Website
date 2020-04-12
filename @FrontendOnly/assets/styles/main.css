@@ -7,12 +7,12 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
+    font-family: "Glacial Indifference", Arial, sans-serif;
 }
 
 /* ---START--- 
 Header Style*/
 .header {
-    font-family: "Glacial Indifference", Arial, sans-serif;
     font-size: 18px;
     margin:70px 70px ;
     
@@ -57,3 +57,10 @@ a:visited {
 }
 /*Header Style
 ---END---*/
+
+/*---START---
+Social Navbar*/
+
+.social-navbar {
+    list-style-type: none;
+}
