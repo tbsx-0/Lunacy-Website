@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "Glacial Indifference";
+    src: url("../fonts/glacialindifference-bold-webfont.woff") format("woff");
+    src: url("../fonts/glacialindifference-regular-webfont.woff") format("woff");
+}
+
+body {
+    
+    overflow: hidden;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Glacial Indifference", Arial, sans-serif;
+}
+/*---START---
+Social Navbar*/
+.body-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: aqua;*/
+    background-image: url("../images/artists/soma-page.jpg");
+    background-position: 420px 0px;
+    background-size: 92.666%;
+    background-repeat: no-repeat;
+}
+
+.social-navbar {
+    list-style-type: none;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.social-navbar li{
+    padding-top: 35px;
+}
+.social-navbar img{
+    width: 20px;
+}
+.body-container .artist-image{
+    max-height: 920px;
+    margin-left: 70px;
+}
