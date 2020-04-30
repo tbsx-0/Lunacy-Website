@@ -18,7 +18,7 @@ Social Navbar*/
     width: 100vw;
     height: 100vh;
     /*background-color: aqua;*/
-    background-image: url("../images/artists/soma-page.jpg");
+    background-image: url("../images/artist.png");
     background-position: 420px 0px;
     background-size: 92.666%;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ Social Navbar*/
     list-style-type: none;
     float: left;
     position: absolute;
-    bottom: 0px;
+    bottom: 70px;
     left: 0px;
     z-index: 1000;
 }
