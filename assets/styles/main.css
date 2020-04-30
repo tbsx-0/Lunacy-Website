@@ -41,7 +41,7 @@ Header Style*/
 
 .header .navbar-right li a {
     display: inline;
-    padding: 100px;
+    margin: 100px;
 }
 
 a {
